@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout of the web page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        header {
+            text-align: center;
+            font-size: 80px;
+            background-color: #696969;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 80px;
+            background-color: #708090;
+            padding: auto;
+        }
+
+        nav {
+            float: left;
+            padding-left: 10px;
+            height: 400px;
+            background-color: #A9A9A9;
+            width: 33%;
+            padding-top: 30px;
+        }
+
+        nav ul li {
+            text-decoration-line: none;
+        }
+
+        article {
+            float: right;
+            height: 400px;
+            text-align: center;
+            background-color: #DCDCDC;
+            width: 67%;
+            align-items: center;
+        }
+
+        .good h1 {
+            text-align: left;
+            padding-top: 80px;
+            padding-left: 10px;
+            font-size: 30px;
+
+        }
+
+        .good p {
+            margin-top: 10px;
+            padding-left: 10px;
+            text-align: justify;
+        }
+
+        @media (max-width:600px) {}
+    </style>
+</head>
+
+<body>
+    <header> Cities</header>
+    <section>
+        <article class="good">
+            <h1>London</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate necessitatibus laudantium doloresaut
+                aliquid nostrum commodi est iusto, praesentium alias? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fuga ratione at repudiandae voluptatem, laboriosam architecto perspiciatis quo quisquam adipisci
+                sapiente?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit ipsa tempora minima, consequatur
+                repudiandae alias? Omnis fugiat illum eos!</p>
+        </article>
+
+        <nav>
+            <ul type="none">
+                <li> <a href="#London">London</a></li>
+                <li> <a href="#Paris">Paris</a> </li>
+                <li><a href="#Tokyo">Tokyo</a></li>
+            </ul>
+        </nav>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
